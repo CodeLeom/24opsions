@@ -1,0 +1,189 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  max-width: 960px;
+}
+.bg-light {
+  color: #333;
+  padding: 2px 40px 20px;
+  text-align: center;
+}
+.bg-dark {
+  background-color: #333 !important;
+  padding: 50px 40px;
+}
+.space {
+  height: 20px;
+  display: block;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+h2 {
+  font-size: 29px;
+}
+
+
+/* header */
+.banner {
+  padding: 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 29px;
+}
+.banner .btn {
+  background-color: #5a5a5a;
+  border-color: #fff;
+}
+.banner .btn:hover,
+.banner .btn:focus,
+.banner .btn:active {
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  background: #5a5a5a;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-4 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* CLIENTS AREA */
+
+.clients p {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 10px;
+}
+.clients h6 {
+  font-weight: lighter;
+}
+
+
+/* Pricing */
+
+.price-container {
+  color: #333;
+}
+.pricing-header {
+  max-width: 700px;
+}
+.card-deck .card {
+  min-width: 220px;
+}
+
+
+/* contact area */
+
+.contact {
+  color: #fff;
+}
+.contact a {
+  color: #fff;
+}
+
+
+
+
+
+/* read more */
+
+.read-more h5 {
+  color: #5a5a5a;
+}
+
+.social-links a {
+  color: #eee;
+  background-color: #5a5a5a;
+  margin: -2px 8px 0;
+  padding: 4px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+/* sign in/ sign up */
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+@media screen and (min-width: 600px) {
+  .form-signup {
+    max-width: 500px;
+  }
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+label {
+  text-align: left;
+  display: block;
+  padding: 2px 0 4px 10px;
+}
